@@ -8,7 +8,13 @@
 
 For this project we had the task of creating the sounds for a project of our choosing. I used the 3D Game Kit from the Unity Asset Store. Everything went well! Until the very last day where I can't even load Unity anymore (no really, it crashes). Anywho, it should run on other people's computers. I'll do documentation for what I did.
 
+![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-10%20at%208.54.42%20PM.png)
+
 --
+#SetUp
+Before tackling the game I set up the Wwise project with all the intended functions. I also organized all my sounds into a designated folder for easy access.
+
+
 #Audio
 ![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-12%20at%2011.56.19%20PM.png)
 While running around "Level 1" I made sounds for the main character, enemies, destroyable objects, ambiance, etc. You can listen to them here:
