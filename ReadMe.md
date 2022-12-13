@@ -1,4 +1,4 @@
-##MTEC-421 3D Game Kit Final
+## MTEC-421 3D Game Kit Final
 #### Myron Layese
 
 ##### Professor Jean-Luc Cohen
@@ -11,7 +11,7 @@ For this project we had the task of creating the sounds for a project of our cho
 ![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-10%20at%208.54.42%20PM.png)
 
 --
-#SetUp
+# SetUp
 Before tackling the game I set up the Wwise project with all the intended functions. I also organized all my sounds into a designated folder for easy access.
 
 ![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-13%20at%201.14.08%20AM.png)
@@ -26,11 +26,11 @@ Before tackling the game I set up the Wwise project with all the intended functi
 
 ![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-12%20at%2011.56.19%20PM.png)
 
-#Audio
+# Audio
 While running around "Level 1" I made sounds for the main character, enemies, destroyable objects, ambiance, etc. You can listen to them here:
 
 
-####Ellen
+#### Ellen
 I spent the most time on Ellen's sounds. I made different noises for her footsteps depending on the type of material she was on and had a switch case to render each noise. As of now there's SFX for grass, dirt, and puddles. 
 
 The footsteps were the hardest part to implement. I used a debug log to see what kind of material she was on and used a renderer to refrence the materials. I made a script that switched her footsteps based on the type of material she was on.
@@ -49,7 +49,7 @@ For her weapon I mixed together the sounds of a lightsaber, some impacts "swoosh
 
 The weapon sounds are triggered by the animation events rather than just using "GetInputKey". It makes the sounds more coherent and prevents the user from accidentally triggering weapon sounds before they acquire her staff.
 
-####Chomper
+#### Chomper
 For the "Chomper" there were three sounds: The "Attack", the "Hurt", and the "Impact" sounds. 
 
 The "Attack" sounds are triggered by the Attack animation event, at the frame where they jump up to bite. Those sounds were made from an old Sample Library I had. I mixed together sounds from a few reptiles to make them sound "slimey". 
@@ -61,7 +61,7 @@ The "Hurt" and "Impact" sounds are triggered when the ragdoll animation is playe
 I also made a script for intermittent emitters that could be triggered on collision. I planned on using them for the chompers but couldn't sadly.
 I was going to add more to them like footsteps but I can't open the Unity file anymore. Bummer. 
 
-####Ambiance
+#### Ambiance
 I placed an Audio Emitter script on a bunch of gameobjects. The Dropship, the various fireflies, water, etc. It made it feel more immersive rather than just having a global ambiance track that played through the entire game. 
 
 ![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-13%20at%201.06.11%20AM.png)
