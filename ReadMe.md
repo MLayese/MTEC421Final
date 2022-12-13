@@ -14,10 +14,21 @@ For this project we had the task of creating the sounds for a project of our cho
 #SetUp
 Before tackling the game I set up the Wwise project with all the intended functions. I also organized all my sounds into a designated folder for easy access.
 
+![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-13%20at%201.14.08%20AM.png)
+
+![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-12%20at%2011.56.23%20PM.png)
+
+![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-12%20at%2011.56.30%20PM.png)
+
+![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-12%20at%2011.56.56%20PM.png)
+
+![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-12%20at%2011.56.13%20PM.png)
+
+![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-12%20at%2011.56.19%20PM.png)
 
 #Audio
-![](https://raw.githubusercontent.com/MLayese/MTEC421Final/main/Screen%20Shot%202022-12-12%20at%2011.56.19%20PM.png)
 While running around "Level 1" I made sounds for the main character, enemies, destroyable objects, ambiance, etc. You can listen to them here:
+
 
 ####Ellen
 I spent the most time on Ellen's sounds. I made different noises for her footsteps depending on the type of material she was on and had a switch case to render each noise. As of now there's SFX for grass, dirt, and puddles. 
